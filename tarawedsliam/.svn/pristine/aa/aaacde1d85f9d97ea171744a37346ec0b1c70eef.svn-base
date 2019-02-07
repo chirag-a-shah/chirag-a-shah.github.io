@@ -1,0 +1,122 @@
+.profile_text{
+
+	min-height: 152px;
+}
+
+.photo_divider{
+	height: 200px;
+}
+
+.upper{
+
+	text-transform: uppercase;
+}
+
+.name_wrapper a{
+	color: inherit;
+}
+.name_wrapper{
+	min-height: 130px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.blog_text1{
+	margin-top: 10px;
+	min-height: 82px;
+}
+.blog_text2{
+	margin-top: 10px;
+	min-height: 130px;
+}
+.blog_text3{
+	margin-top: 10px;
+	min-height: 130px;
+}
+.box_text a:hover{
+	color: #01c0b6;
+}
+.list{
+	list-style-type: none;
+}
+.box_text1 {
+	padding:20px 25px;
+	/*min-height: 210px;\*/
+}
+.box_text1 a:hover{
+	color: #01c0b6;
+}
+
+#home {
+	background-image: url(/images/Beach.jpg);
+}
+#site-credits {
+	background-color: #000;
+	height: 60px;
+	margin-top: 100px;
+	padding: 20px;
+	overflow: hidden;
+}
+#site-credits p {
+	float: right;
+}
+#site-credits a {
+	color: #747474;
+}
+#site-credits a:hover {
+	color: #00c0b6;
+}
+.box {
+	min-height: 230px;
+}
+.mfp-counter {
+	display: none;
+}
+span.glyphicon.glyphicon-heart {
+	color: #00c0b6;
+}
+.the-wedding, .the-mehndi, .open-house {
+	cursor: pointer;
+}
+.is-sticky #nav {
+	padding: 0;
+}
+.active {
+	background-color: #00c0b6;
+	color: white;
+}
+.active .box_title {
+	color: white;
+}
+.active .box_icon {
+	background-color: #fff;
+	color: #00c0b6;
+}
+#getting-around {
+	min-height: 305px;
+}
+#useful-links {
+	min-height: 305px;
+}
+
+@media (max-width: 480px) {
+	#logo {
+	width: 150px;
+	height: 50px;
+	padding-top: 15px;
+	font-size: 16px;
+	padding-left: 5px;
+	padding-right: 5px;
+	}
+}
+@media (min-width: 767px){
+	.box_text1 {
+	padding:20px 25px;
+	min-height: 225px;
+	}
+	.box_text1 a:hover{
+	color: #01c0b6;
+	}
+
+}
